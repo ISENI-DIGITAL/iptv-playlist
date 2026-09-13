@@ -31,8 +31,6 @@ https://stream.syritv.al/live/syritv/playlist.m3u8
 https://gjirafa-video-live.gjirafa.net/gjvideo-livestream-specific/1z8-byc-4ee-lc9/index.m3u8
 #EXTINF:-1 group-title="Albanische Sender",TopEstrada TV
 http://live.topestrada.com/live/topestrada/playlist.m3u8
-#EXTINF:-1 group-title="Albanische Sender",Tropoja Televizion
-https://live.prostream.al/al/smil:tropojatv.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="TV 7 Albania" tvg-logo="https://i.imgur.com/k9WqPLZ.png" tvg-id="TV7Albania.al" tvg-country="AL" group-title="Albanische Sender",TV 7 Albania
 https://rpn3.bozztv.com/albaniatv/Med7-TV7Tirana/index.m3u8
 #EXTINF:-1 tvg-name="TV Apollon" tvg-logo="https://i.imgur.com/gUz2AjM.png" tvg-id="TVApollon.al" tvg-country="AL" group-title="Albanische Sender",TV Apollon Ⓢ
@@ -69,8 +67,8 @@ https://jmp2.uk/plu-622f6e1e2792150007e0b2ff.m3u8
 https://stream01.welocal.stream/stream/fhd-allgaeutv_25679/ngrp:stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="AltenburgTV.de@SD" group-title="Deutsche Sender",Altenburg TV
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/132661/132661_264_live.m3u8
-#EXTINF:-1 tvg-id="ARDalpha.de" group-title="Deutsche Sender",ARD Alpha
-https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8
+#EXTINF:-1 tvg-id="ARDalpha.de@SD" group-title="Deutsche Sender",ARD-alpha (720p) [Not 24/7]
+https://brlive-lh.akamaihd.net/i/bralpha_germany@119899/master.m3u8
 #EXTINF:-1 tvg-id="arte.de@HD" tvg-logo="https://i.imgur.com/ecXMjNl.png" group-title="Deutsche Sender",arte HD
 https://dash4.antik.sk/live/test_arte_avc_25p/playlist.m3u8
 #EXTINF:-1 tvg-id="AuctionHunters.de@DACH" tvg-logo="https://i.imgur.com/4SPOVN7.png" group-title="Deutsche Sender",Auction Hunters
@@ -99,8 +97,6 @@ https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/mp4:BLKonline_high
 https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/BLKonline_high/playlist.m3u8
 #EXTINF:-1 tvg-id="BLKRegionalTV.de@SD" group-title="Deutsche Sender",BLK TV Hohenmölsen (1080p)
 https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/mp4:BLKonline_high/playlist.m3u8?ref=medienportal-sachsen-
-#EXTINF:-1 tvg-id="BRFernsehenNord.de" group-title="Deutsche Sender",BR Nord
-https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="BRFernsehenSud.de" group-title="Deutsche Sender",BR Süd
 https://mcdn.br.de/br/fs/bfs_sued/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="CCPlutoTV.de@DACH" tvg-logo="https://images.pluto.tv/channels/5d4947590ba40f75dc29c26b/colorLogoPNG.png" group-title="Deutsche Sender",CC Pluto TV
@@ -125,8 +121,6 @@ https://swrdasdingvr-hls.akamaized.net/hls/live/2018681/dasdingvr/master.m3u8
 https://jmp2.uk/stvp-CHAJ0500413A
 #EXTINF:-1 tvg-id="DeluxeMusic.de" group-title="Deutsche Sender",DELUXE MUSIC
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8
-#EXTINF:-1 tvg-id="DeLuxeMusicRap.de" group-title="Deutsche Sender",DELUXE MUSIC RAP
-https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8
 #EXTINF:-1 tvg-id="DieNeueZeitTV.ch@SD" tvg-logo="https://i.imgur.com/K3lvrog.png" group-title="Deutsche Sender",Die Neue Zeit (576p)
 https://bild-und-ton.stream/die-neue-zeit-tv-live/smil:dnz-de.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="DMF.de@SD" group-title="Deutsche Sender",DMF
@@ -151,8 +145,6 @@ https://cdn3.wowza.com/1/ZUkxSDBrZHlMbjVn/ZkhNRFNZ/hls/live/playlist.m3u8
 https://4397879b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWRlX0ZJRkFQbHVzR2VybWFuX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="Filstalwelle.de@SD" group-title="Deutsche Sender",Filstalwelle
 https://h055.video-stream-hosting.de/filstalwelle-live/_definst_/mp4:livestream/playlist.m3u8
-#EXTINF:-1 tvg-id="FinestTV.de@SD" group-title="Deutsche Sender",Finest TV (288p) [Not 24/7]
-https://media.finest.tv/hls/live.m3u8
 #EXTINF:-1 tvg-id="FolxMusicTelevision.de@SD" group-title="Deutsche Sender",Folx Music Television
 https://folxapp.b-cdn.net/1080p/index.m3u8
 #EXTINF:-1 tvg-id="FrankenFernsehen.de@SD" group-title="Deutsche Sender",Franken Fernsehen
@@ -183,8 +175,6 @@ https://dash4.antik.sk/live/test_kabel_eins_tizen/playlist.m3u8
 https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master.m3u8
 #EXTINF:-1 tvg-id="KulturMD.de@SD" group-title="Deutsche Sender",KulturMD (1080p)
 http://58bd5b7a98e04.streamlock.net/medienasa-live/kulturmd_high/playlist.m3u8
-#EXTINF:-1 tvg-id="Lausitzwelle.de@SD" group-title="Deutsche Sender",Lausitzwelle
-https://h056.video-stream-hosting.de/easycast11-live/_definst_/mp4:livestreamhd2/playlist.m3u8?ref=
 #EXTINF:-1 tvg-id="SachsenFernsehenLeipzig.de@SD" group-title="Deutsche Sender",Leipzig Fernsehen
 https://leipzig.iptv-playoutcenter.de/leipzig/leipzigfernsehen.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="LightChannel.de@SD" group-title="Deutsche Sender",Light Channel (576p) [Not 24/7]
@@ -459,8 +449,6 @@ https://swrswr3vr-hls.akamaized.net/hls/live/2018683/swr3vr/master.m3u8
 https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
 #EXTINF:-1 tvg-id="TakeshisCastle.de@DACH" tvg-logo="https://images.pluto.tv/channels/6054a9f4bc8a5f000771504c/colorLogoPNG.png" group-title="Deutsche Sender",Takeshi's Castle
 https://jmp2.uk/plu-6054a9f4bc8a5f000771504c.m3u8
-#EXTINF:-1 tvg-id="teltOwkanal.de@SD" group-title="Deutsche Sender",teltOwkanal (1080p)
-https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd8/playlist.m3u8
 #EXTINF:-1 tvg-id="TerraMaterWILD.de@German" group-title="Deutsche Sender",Terra Mater WILD
 https://53ff3982.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9UZXJyYU1hdGVyV2lsZF9ITFM/playlist.m3u8
 #EXTINF:-1 tvg-id="TerraMaterWILD.de@English" group-title="Deutsche Sender",Terra Mater WILD English (1080p)
@@ -485,8 +473,8 @@ https://h057.video-stream-hosting.de/tv38-live/_definst_/smil:livestream.smil/pl
 https://tvaktuellr.iptv-playoutcenter.de/tvaktuellr/tvaktuellr.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="VolksmusikTV.de@SD" group-title="Deutsche Sender",Volksmusik TV
 https://vmtv.iptv-playoutcenter.de/vmtv/vmtv1/playlist.m3u8
-#EXTINF:-1 tvg-id="WDRFernsehen.de@Koln" group-title="Deutsche Sender",WDR Fernsehen (720p)
-https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master.m3u8
+#EXTINF:-1 tvg-id="WDRFernsehen.de@Koln" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/WDR_Fernsehen_Logo_2018.svg/960px-WDR_Fernsehen_Logo_2018.svg.png" group-title="Deutsche Sender",WDR Fernsehen
+https://dash3.antik.sk/live/test_wdr_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="WELT.de@SD" tvg-logo="https://i.imgur.com/s4TZoxx.png" group-title="Deutsche Sender",WELT (576p)
 https://s6.hopslan.com/n24X/index.m3u8
 #EXTINF:-1 tvg-id="WeltderWunderTV.de@SD" group-title="Deutsche Sender",Welt der Wunder TV (576p)
