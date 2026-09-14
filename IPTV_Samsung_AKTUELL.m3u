@@ -41,6 +41,8 @@ https://gjirafa-video-live.gjirafa.net/gjvideo-live/mps-vgx-u9p-qv1/index.m3u8
 http://stream.tvdielli.com:8081/dielli/index.m3u8
 #EXTINF:-1 tvg-id="TVJohaniter.al@SD" group-title="Albanische Sender",TV Johaniter
 https://protokolldns.xyz/johaniterweb44547dsd/index.m3u8
+#EXTINF:-1 group-title="Albanische Sender",TV Opoja
+http://ip.opoja.tv:1935/tvopoja/tvopoja/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPrizreni.xk" group-title="Albanische Sender",TV Prizreni
 https://gjirafa-video-live.gjirafa.net/gjvideo-live/5m0-cok-g5z-1xi/index.m3u8
 #EXTINF:-1 group-title="Albanische Sender",Vizion Plus
@@ -115,6 +117,8 @@ https://ma.anixa.tv/clips/stream/comedy_central/playlist.php
 https://jmp2.uk/plu-60c716084d842c00085f6e64.m3u8
 #EXTINF:-1 tvg-id="DasErste.de" group-title="Deutsche Sender",Das Erste
 https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8
+#EXTINF:-1 tvg-id="DASDING908.de@SD" group-title="Deutsche Sender",DASDING 90.8
+https://swrdasdingvr-hls.akamaized.net/hls/live/2018681/dasdingvr/master.m3u8
 #EXTINF:-1 tvg-id="DeluxeLounge.de@SD" group-title="Deutsche Sender",Deluxe Lounge
 https://jmp2.uk/stvp-CHAJ0500413A
 #EXTINF:-1 tvg-id="DeluxeMusic.de" group-title="Deutsche Sender",DELUXE MUSIC
@@ -173,6 +177,8 @@ https://dash4.antik.sk/live/test_kabel_eins_tizen/playlist.m3u8
 https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master.m3u8
 #EXTINF:-1 tvg-id="KulturMD.de@SD" group-title="Deutsche Sender",KulturMD (1080p)
 http://58bd5b7a98e04.streamlock.net/medienasa-live/kulturmd_high/playlist.m3u8
+#EXTINF:-1 tvg-id="Lausitzwelle.de@SD" group-title="Deutsche Sender",Lausitzwelle
+https://h056.video-stream-hosting.de/easycast11-live/_definst_/mp4:livestreamhd2/playlist.m3u8?ref=
 #EXTINF:-1 tvg-id="SachsenFernsehenLeipzig.de@SD" group-title="Deutsche Sender",Leipzig Fernsehen
 https://leipzig.iptv-playoutcenter.de/leipzig/leipzigfernsehen.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="LightChannel.de@SD" group-title="Deutsche Sender",Light Channel (576p) [Not 24/7]
@@ -433,8 +439,6 @@ https://jmp2.uk/plu-646b1438e94c3800082a8cff.m3u8
 https://jmp2.uk/plu-6576c20fb3801200084786c9.m3u8
 #EXTINF:-1 tvg-id="SpongeBobSchwammkopf.de@DACH" tvg-logo="https://images.pluto.tv/channels/5d00e8adaab96b5635b2a005/colorLogoPNG.png" group-title="Deutsche Sender",SpongeBob Schwammkopf (720p)
 https://jmp2.uk/plu-5d00e8adaab96b5635b2a005.m3u8
-#EXTINF:-1 tvg-id="SRFernsehen.de" group-title="Deutsche Sender",SR
-https://srfs.akamaized.net/hls/live/689649/srfsgeo/index.m3u8
 #EXTINF:-1 tvg-id="StarTrekTheNextGeneration.de@DACH" tvg-logo="https://images.pluto.tv/channels/69776ce979545c21a1220bff/colorLogoPNG_1769434849537.png" group-title="Deutsche Sender",Star Trek: The Next Generation
 https://jmp2.uk/plu-69776ce979545c21a1220bff.m3u8
 #EXTINF:-1 tvg-id="StarTrekTheOriginalSeries.de@DACH" tvg-logo="https://images.pluto.tv/channels/69776b58036e883f39e5ab8a/colorLogoPNG_1769434091096.png" group-title="Deutsche Sender",Star Trek: The Original Series
@@ -447,12 +451,16 @@ https://swrswr3vr-hls.akamaized.net/hls/live/2018683/swr3vr/master.m3u8
 https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
 #EXTINF:-1 tvg-id="TakeshisCastle.de@DACH" tvg-logo="https://images.pluto.tv/channels/6054a9f4bc8a5f000771504c/colorLogoPNG.png" group-title="Deutsche Sender",Takeshi's Castle
 https://jmp2.uk/plu-6054a9f4bc8a5f000771504c.m3u8
+#EXTINF:-1 tvg-id="teltOwkanal.de@SD" group-title="Deutsche Sender",teltOwkanal (1080p)
+https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd8/playlist.m3u8
 #EXTINF:-1 tvg-id="TerraMaterWILD.de@German" group-title="Deutsche Sender",Terra Mater WILD
 https://53ff3982.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9UZXJyYU1hdGVyV2lsZF9ITFM/playlist.m3u8
 #EXTINF:-1 tvg-id="TerraMaterWILD.de@English" group-title="Deutsche Sender",Terra Mater WILD English (1080p)
 https://amg01775-amg01775c1-amgplt0343.playout.now3.amagi.tv/playlist/amg01775-amg01775c1-amgplt0343/playlist.m3u8
 #EXTINF:-1 tvg-id="TheGrahamNortonShow.uk@SD" tvg-logo="https://image.tmdb.org/t/p/w500/xZkWYamzlT6nFu9MI2Rr6NkjedX.png" group-title="Deutsche Sender",The Graham Norton Show (1080p)
 https://amg00654-itv-amg00654c35-rakuten-gb-7598.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TheLWordWennFrauenlieben.de@DACH" tvg-logo="https://images.pluto.tv/channels/68d2759a59fd82da3226492d/colorLogoPNG_1769617985920.png" group-title="Deutsche Sender",The L Word – Wenn Frauen lieben
+https://jmp2.uk/plu-68d2759a59fd82da3226492d.m3u8
 #EXTINF:-1 tvg-id="TideTV.de@SD" group-title="Deutsche Sender",Tide TV (1080p) [Not 24/7]
 https://5889e7d0d6e28.streamlock.net/tide-live/smil:livestream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TotallyTurtles.de@DACH" tvg-logo="https://images.pluto.tv/channels/5d6792bd6be2998ad0ccce30/colorLogoPNG.png" group-title="Deutsche Sender",Totally Turtles (720p)
@@ -499,16 +507,12 @@ https://amg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv/hls/amagi_hls_data_r
 https://studiocam-oe3.mdn.ors.at/orf/studiocam_oe3/q6a/master.m3u8
 #EXTINF:-1 tvg-id="KITTV.at@SD" group-title="Österreichische Sender",KIT-TV
 https://everest.pa-hosting.de:3591/live/joseflive.m3u8
-#EXTINF:-1 tvg-id="Kronehit.at@SD" group-title="Österreichische Sender",Kronehit
-https://bitcdn-kronehit.bitmovin.com/v2/hls/playlist.m3u8
 #EXTINF:-1 tvg-id="LandleTV.at@SD" group-title="Österreichische Sender",Ländle TV
 https://streaming13.huberwebmedia.at/LiveApp/streams/985585225397790082777809.m3u8
 #EXTINF:-1 tvg-id="Oe24TV.at" tvg-logo="https://i.imgur.com/8UTkcPn.png" group-title="Österreichische Sender",oe24
 https://oe24.mdn.ors.at/live/eds/oe24tv_hd/hls_nodrm/oe24tv_hd-nodrm.m3u8
 #EXTINF:-1 tvg-id="Okto.at@SD" tvg-logo="https://i.imgur.com/9XfhgbS.png" group-title="Österreichische Sender",Okto TV (1080p)
 https://cdn3.wowza.com/1/MHFtazJReW5rOFhP/N2NWNDZ2/hls/live/playlist.m3u8
-#EXTINF:-1 tvg-id="R9.at" group-title="Österreichische Sender",R9
-https://ms01.w24.at/R9/smil:liveeventR9.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RedBullTV.at@SD" group-title="Österreichische Sender",Red Bull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 #EXTINF:-1 tvg-id="RedBullTV.at@AU" group-title="Österreichische Sender",Red Bull TV AU (1080p)
@@ -525,17 +529,15 @@ https://0b73ace69ebb45eaa249bb87837cb958.mediatailor.us-west-2.amazonaws.com/v1/
 http://iptv.rtv-ooe.at/stream.m3u8
 #EXTINF:-1 tvg-id="SchladmingDachsteinTV.at@SD" group-title="Österreichische Sender",Schladming-Dachstein TV
 https://m317.video-stream-hosting.de/gzSoftware-live/_definst_/smil:livestream.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="SteiermarkTV.at@SD" group-title="Österreichische Sender",Steiermark TV
+https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd4/playlist.m3u8?ref=
 #EXTINF:-1 tvg-id="SwamijiTVAmerican.at@SD" group-title="Österreichische Sender",Swamiji TV American (1080p) [Not 24/7]
 https://stream.swamiji.tv/YogaIPTV/smil:YogaStreamUS.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="SwamijiTVAustralian.at@SD" group-title="Österreichische Sender",Swamiji TV Australian (1080p) [Not 24/7]
 https://stream.swamiji.tv/YogaIPTV/smil:YogaStreamAU.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="SwamijiTVEuropean.at@SD" group-title="Österreichische Sender",Swamiji TV European (1080p) [Not 24/7]
 https://stream.swamiji.tv/YogaIPTV/smil:YogaStream.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TheLWordWennFrauenlieben.de@DACH" tvg-logo="https://images.pluto.tv/channels/68d2759a59fd82da3226492d/colorLogoPNG_1769617985920.png" group-title="Österreichische Sender",The L Word – Wenn Frauen lieben
-https://jmp2.uk/plu-68d2759a59fd82da3226492d.m3u8
 #EXTINF:-1 tvg-id="TirolTV.at@SD" group-title="Österreichische Sender",Tirol TV (720p) [Not 24/7]
 https://streaming14.huberwebmedia.at/LiveApp/streams/livestream.m3u8
 #EXTINF:-1 tvg-id="TV1Oberosterreich.at@SD" group-title="Österreichische Sender",TV 1 Oberösterreich
 https://streaming10.huberwebmedia.at/LiveApp/streams/238985177034727564068269_adaptive.m3u8
-#EXTINF:-1 tvg-id="W24.at" group-title="Österreichische Sender",W24
-https://ms01.w24.at/W24/smil:liveevent.smil/playlist.m3u8
