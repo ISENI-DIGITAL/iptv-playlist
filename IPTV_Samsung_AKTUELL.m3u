@@ -59,6 +59,8 @@ https://zjarr.future.al/hls/playlist.m3u8
 https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8
 #EXTINF:-1 tvg-id="3sat.de@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/960px-3sat_2019.svg.png" group-title="Deutsche Sender",3sat
 https://dash4.antik.sk/live/test_drei_sat_tizen/playlist.m3u8
+#EXTINF:-1 tvg-id="90210.de@DACH" tvg-logo="https://images.pluto.tv/channels/65a67dd13af63d0008257f17/colorLogoPNG.png" group-title="Deutsche Sender",90210
+https://jmp2.uk/plu-65a67dd13af63d0008257f17.m3u8
 #EXTINF:-1 tvg-id="AdriaMusicTelevision.de@SD" group-title="Deutsche Sender",Adria Music Television
 https://adriaapp.b-cdn.net/1080p/index.m3u8
 #EXTINF:-1 tvg-id="AdventureEarth.de@SD" group-title="Deutsche Sender",Adventure Earth
@@ -103,6 +105,8 @@ https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/BLKonline_high/pla
 https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/mp4:BLKonline_high/playlist.m3u8?ref=medienportal-sachsen-
 #EXTINF:-1 tvg-id="BRFernsehenNord.de" group-title="Deutsche Sender",BR Nord
 https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8
+#EXTINF:-1 tvg-id="BRFernsehenSud.de" group-title="Deutsche Sender",BR Süd
+https://mcdn.br.de/br/fs/bfs_sued/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="CCPlutoTV.de@DACH" tvg-logo="https://images.pluto.tv/channels/5d4947590ba40f75dc29c26b/colorLogoPNG.png" group-title="Deutsche Sender",CC Pluto TV
 https://jmp2.uk/plu-5d4947590ba40f75dc29c26b.m3u8
 #EXTINF:-1 tvg-id="ChaosCity.us@Germany" tvg-logo="https://i.imgur.com/1UZNdRH.png" group-title="Deutsche Sender",Chaos City
@@ -139,10 +143,14 @@ https://muc3.iptv-playoutcenter.de/dokusat/dokusat1/playlist.m3u8
 https://jmp2.uk/plu-65a67c494a10d800085cab06.m3u8
 #EXTINF:-1 tvg-id="SachsenFernsehenDresden.de@SD" group-title="Deutsche Sender",Dresden Fernsehen
 https://dresden.iptv-playoutcenter.de/dresden/dresdenfernsehen.stream_1/playlist.m3u8
+#EXTINF:-1 tvg-id="DW.de@Arabic" group-title="Deutsche Sender",DW Arabic (1080p)
+https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/master.m3u8
 #EXTINF:-1 tvg-id="DW.de@English" group-title="Deutsche Sender",DW English (720p) [Geo-blocked]
 https://live.fptplay53.net/fnxhd2/dwenglish_hls.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="DW.de@Espanol" tvg-logo="https://i.imgur.com/8MRNFb9.png" group-title="Deutsche Sender",DW Espanol (1080p)
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8
+#EXTINF:-1 tvg-id="DW.de@Russian" group-title="Deutsche Sender",DW Russian (1080p)
+https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/master.m3u8
 #EXTINF:-1 tvg-id="ErzTVStollberg.de@SD" group-title="Deutsche Sender",Erz-TV Stollberg (576p)
 https://5acade5fc0c29.streamlock.net/kabeljournal/live2020.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="EWTN.de@SD" tvg-logo="https://i.imgur.com/NXeygNk.png" group-title="Deutsche Sender",EWTN Germany (720p)
@@ -167,8 +175,8 @@ https://amogonetworx-grjngo-3-dk.samsung.wurl.tv/playlist.m3u8
 https://hnc-free-viewlift.amagi.tv/HNC_AUSTRALIA.m3u8
 #EXTINF:-1 tvg-id="HRFernsehen.de" group-title="Deutsche Sender",HR
 https://hrhls.akamaized.net/hls/live/2024525/hrhls/master.m3u8
-#EXTINF:-1 tvg-id="hrfernsehen.de@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/HR-Fernsehen_Logo_2023.svg/960px-HR-Fernsehen_Logo_2023.svg.png" group-title="Deutsche Sender",hr-fernsehen HD
-https://dash4.antik.sk/live/test_hr_tizen/playlist.m3u8
+#EXTINF:-1 tvg-id="hrfernsehen.de@SD" group-title="Deutsche Sender",hr-fernsehen (1080p)
+https://hrhls.akamaized.net/hls/live/2024525/hrhls/index.m3u8
 #EXTINF:-1 tvg-id="iCarly.de@DACH" tvg-logo="https://images.pluto.tv/channels/5e8b580a233dc90007f0cb9d/colorLogoPNG.png" group-title="Deutsche Sender",iCarly
 https://jmp2.uk/plu-5e8b580a233dc90007f0cb9d.m3u8
 #EXTINF:-1 tvg-id="IcePilots.us@Germany" tvg-logo="https://i.imgur.com/F8GBYq3.png" group-title="Deutsche Sender",Ice Pilots
@@ -181,6 +189,8 @@ https://dash4.antik.sk/live/test_kabel_eins_tizen/playlist.m3u8
 https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master.m3u8
 #EXTINF:-1 tvg-id="KulturMD.de@SD" group-title="Deutsche Sender",KulturMD (1080p)
 http://58bd5b7a98e04.streamlock.net/medienasa-live/kulturmd_high/playlist.m3u8
+#EXTINF:-1 tvg-id="Lausitzwelle.de@SD" group-title="Deutsche Sender",Lausitzwelle
+https://h056.video-stream-hosting.de/easycast11-live/_definst_/mp4:livestreamhd2/playlist.m3u8?ref=
 #EXTINF:-1 tvg-id="SachsenFernsehenLeipzig.de@SD" group-title="Deutsche Sender",Leipzig Fernsehen
 https://leipzig.iptv-playoutcenter.de/leipzig/leipzigfernsehen.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="LightChannel.de@SD" group-title="Deutsche Sender",Light Channel (576p) [Not 24/7]
@@ -229,6 +239,8 @@ https://jmp2.uk/plu-60080e8a4bf36000076a81b1.m3u8
 https://jmp2.uk/plu-65d5fc39a25d5e00082895c4.m3u8
 #EXTINF:-1 tvg-id="NDRFernsehenHamburg.de" group-title="Deutsche Sender",NDR Hamburg
 https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master.m3u8
+#EXTINF:-1 tvg-id="NDRFernsehenMecklenburgVorpommern.de" group-title="Deutsche Sender",NDR Mecklenburg-Vorpommern
+https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master.m3u8
 #EXTINF:-1 tvg-id="NDRFernsehenSchleswigHolstein.de" group-title="Deutsche Sender",NDR Schleswig-Holstein
 https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master.m3u8
 #EXTINF:-1 tvg-id="NickJrClub.de@DACH" tvg-logo="https://images.pluto.tv/channels/67f3eb1c443f0671bc03ece8/colorLogoPNG_1748329104247.png" group-title="Deutsche Sender",Nick Jr. Club (720p)
@@ -255,6 +267,8 @@ https://dash4.antik.sk/live/test_rtl_nitro_tizen/playlist.m3u8
 https://hls1.wtnet.de/noa4hh/apple/wifi6500.m3u8
 #EXTINF:-1 tvg-id="noa4Norderstedt.de@SD" group-title="Deutsche Sender",Noa 4 Norderstedt (1080p)
 https://hls1.wtnet.de/noa4/apple/wifi6500.m3u8
+#EXTINF:-1 tvg-id="NRWision.de@SD" group-title="Deutsche Sender",NRWision
+https://fms.nrwision.de/live/ngrp:livestreamHD.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="OberpfalzTV.de@SD" group-title="Deutsche Sender",Oberpfalz TV
 https://oberpfalztv.iptv-playoutcenter.de/oberpfalztv/oberpfalztv.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="OFTVOffenbach.de@SD" group-title="Deutsche Sender",OF-TV Offenbach (720p)
@@ -455,8 +469,6 @@ https://dash4.antik.sk/live/test_swr_tizen/playlist.m3u8
 https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
 #EXTINF:-1 tvg-id="TakeshisCastle.de@DACH" tvg-logo="https://images.pluto.tv/channels/6054a9f4bc8a5f000771504c/colorLogoPNG.png" group-title="Deutsche Sender",Takeshi's Castle
 https://jmp2.uk/plu-6054a9f4bc8a5f000771504c.m3u8
-#EXTINF:-1 tvg-id="teltOwkanal.de@SD" group-title="Deutsche Sender",teltOwkanal (1080p)
-https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd8/playlist.m3u8
 #EXTINF:-1 tvg-id="TerraMaterWILD.de@German" group-title="Deutsche Sender",Terra Mater WILD
 https://53ff3982.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9UZXJyYU1hdGVyV2lsZF9ITFM/playlist.m3u8
 #EXTINF:-1 tvg-id="TerraMaterWILD.de@English" group-title="Deutsche Sender",Terra Mater WILD English (1080p)
@@ -503,8 +515,6 @@ https://dash4.antik.sk/live/test_zdf_avc_25p/playlist.m3u8
 https://e4955b54.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1kZV9aZWVPbmVfSExT/playlist.m3u8
 #EXTINF:-1 tvg-id="ZweiMusicTelevision.de@SD" group-title="Deutsche Sender",Zwei Music Television
 https://zweiapp.b-cdn.net/1080p/index.m3u8
-#EXTINF:-1 tvg-id="90210.de@DACH" tvg-logo="https://images.pluto.tv/channels/65a67dd13af63d0008257f17/colorLogoPNG.png" group-title="Österreichische Sender",90210
-https://jmp2.uk/plu-65a67dd13af63d0008257f17.m3u8
 #EXTINF:-1 tvg-id="AntenneKaernten.at@SD" group-title="Österreichische Sender",Antenne Kärnten
 https://60efd7a2b4d02.streamlock.net/a_kaernten/ngrp:livestream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="AntenneSteiermark.at@SD" group-title="Österreichische Sender",Antenne Steiermark
@@ -517,6 +527,8 @@ https://amg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv/hls/amagi_hls_data_r
 https://studiocam-oe3.mdn.ors.at/orf/studiocam_oe3/q6a/master.m3u8
 #EXTINF:-1 tvg-id="KITTV.at@SD" group-title="Österreichische Sender",KIT-TV
 https://everest.pa-hosting.de:3591/live/joseflive.m3u8
+#EXTINF:-1 tvg-id="Kronehit.at@SD" group-title="Österreichische Sender",Kronehit
+https://bitcdn-kronehit.bitmovin.com/v2/hls/playlist.m3u8
 #EXTINF:-1 tvg-id="LandleTV.at@SD" group-title="Österreichische Sender",Ländle TV
 https://streaming13.huberwebmedia.at/LiveApp/streams/985585225397790082777809.m3u8
 #EXTINF:-1 tvg-id="Oe24TV.at" tvg-logo="https://i.imgur.com/8UTkcPn.png" group-title="Österreichische Sender",oe24
@@ -541,8 +553,6 @@ https://0b73ace69ebb45eaa249bb87837cb958.mediatailor.us-west-2.amazonaws.com/v1/
 http://iptv.rtv-ooe.at/stream.m3u8
 #EXTINF:-1 tvg-id="SchladmingDachsteinTV.at@SD" group-title="Österreichische Sender",Schladming-Dachstein TV
 https://m317.video-stream-hosting.de/gzSoftware-live/_definst_/smil:livestream.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="SteiermarkTV.at@SD" group-title="Österreichische Sender",Steiermark TV
-https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd4/playlist.m3u8?ref=
 #EXTINF:-1 tvg-id="SwamijiTVAmerican.at@SD" group-title="Österreichische Sender",Swamiji TV American (1080p) [Not 24/7]
 https://stream.swamiji.tv/YogaIPTV/smil:YogaStreamUS.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="SwamijiTVAustralian.at@SD" group-title="Österreichische Sender",Swamiji TV Australian (1080p) [Not 24/7]
