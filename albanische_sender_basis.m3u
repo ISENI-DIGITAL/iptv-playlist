@@ -9,6 +9,12 @@ https://secured.albportal.net:2083/AlbKanaleMusicTv/index.m3u8
 https://gjirafa-video-live.gjirafa.net/gjvideo-live-n1/ehn-g2o-v7w-nh4/index.m3u8
 #EXTINF:-1 group-title="Albanische Sender",Dasma TV
 http://live.dtv-ks.com:8082/live/DTVHD.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="TVKlan.al" group-title="Albanische Sender",TV Klan
+http://178.33.34.186:15151/live/klanhdott/playlist.m3u8
+#EXTINF:-1 tvg-id="TVKlan.al@SD" group-title="Albanische Sender",TV Klan
+http://5.254.89.106/8704/index.m3u8
+#EXTINF:-1 tvg-id="KlanKosova.xk@SD" group-title="Albanische Sender",Klan Kosova
+http://5.254.89.106/8706/index.m3u8
 #EXTINF:-1 group-title="Albanische Sender",Kohavision (KTV)
 https://gjirafa-video-live.gjirafa.net/gjvideo-livestream/lj9-pxm-o53-rp0/index.m3u8
 #EXTINF:-1 group-title="Albanische Sender",News 24 Albania
