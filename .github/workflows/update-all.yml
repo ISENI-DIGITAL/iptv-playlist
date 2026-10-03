@@ -20,6 +20,8 @@ jobs:
     steps:
       - name: Repository laden
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Python 3.12 installieren
         uses: actions/setup-python@v5
@@ -32,9 +34,12 @@ jobs:
           sudo apt-get install -y ffmpeg
 
       - name: Alle 3 Länder prüfen und reparieren
+        id: repair
+        continue-on-error: true
         run: python update_all.py
 
       - name: Ergebnisse speichern
+        if: ${{ !cancelled() }}
         run: |
           git config user.name "iptv-3-laender-auto-bot"
           git config user.email "actions@users.noreply.github.com"
@@ -51,7 +56,27 @@ jobs:
 
           if git diff --cached --quiet; then
             echo "Keine Änderung"
+            exit 0
+          fi
+
+          # Änderungen lokal sichern, neuesten main-Stand holen und danach sauber anwenden.
+          git diff --cached --binary > /tmp/iptv-changes.patch
+          git reset --hard HEAD
+          git pull --rebase origin main
+          git apply --index /tmp/iptv-changes.patch
+
+          if git diff --cached --quiet; then
+            echo "Nach Synchronisierung keine Änderung mehr nötig"
           else
-            git commit -m "Auto v6: IPTV AL-XK DE AT aktualisiert"
-            git push
+            git commit -m "Auto v10: IPTV AL-XK DE AT aktualisiert"
+            git push origin HEAD:main
+          fi
+
+      - name: Status ausgeben
+        if: ${{ !cancelled() }}
+        run: |
+          if [ "${{ steps.repair.outcome }}" = "failure" ]; then
+            echo "::warning::Die Senderprüfung hatte einen Teilfehler. Vorhandene verwertbare Ergebnisse wurden trotzdem verarbeitet."
+          else
+            echo "IPTV Auto Repair erfolgreich abgeschlossen."
           fi
