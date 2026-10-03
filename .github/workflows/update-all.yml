@@ -59,18 +59,43 @@ jobs:
             exit 0
           fi
 
-          # Änderungen lokal sichern, neuesten main-Stand holen und danach sauber anwenden.
-          git diff --cached --binary > /tmp/iptv-changes.patch
-          git reset --hard HEAD
-          git pull --rebase origin main
-          git apply --index /tmp/iptv-changes.patch
+          # Ergebnis als eigenen Commit festhalten. Danach neuesten main-Stand
+          # darunter rebasen. So muss kein Patch auf inzwischen geänderte Dateien
+          # angewendet werden.
+          git commit -m "Auto v10: IPTV AL-XK DE AT aktualisiert"
 
-          if git diff --cached --quiet; then
-            echo "Nach Synchronisierung keine Änderung mehr nötig"
-          else
-            git commit -m "Auto v10: IPTV AL-XK DE AT aktualisiert"
-            git push origin HEAD:main
-          fi
+          for attempt in 1 2 3; do
+            echo "Push-Versuch $attempt/3"
+            git fetch origin main
+
+            if ! git rebase origin/main; then
+              echo "Rebase-Konflikt: Bei den generierten IPTV-Dateien gewinnt das Ergebnis dieses Laufs."
+              conflicted="$(git diff --name-only --diff-filter=U)"
+              if [ -z "$conflicted" ]; then
+                git rebase --abort || true
+                exit 1
+              fi
+
+              while IFS= read -r file; do
+                [ -n "$file" ] || continue
+                git checkout --theirs -- "$file"
+                git add -- "$file"
+              done <<< "$conflicted"
+
+              GIT_EDITOR=true git rebase --continue
+            fi
+
+            if git push origin HEAD:main; then
+              echo "Ergebnisse erfolgreich gespeichert."
+              exit 0
+            fi
+
+            echo "main wurde während des Pushs erneut geändert; neuer Versuch."
+            sleep 2
+          done
+
+          echo "::error::Ergebnisse konnten nach 3 Versuchen nicht gespeichert werden."
+          exit 1
 
       - name: Status ausgeben
         if: ${{ !cancelled() }}
