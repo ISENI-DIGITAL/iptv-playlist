@@ -1,1 +1,52 @@
+name: Cleanup old workflow runs
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "37 2 * * *"
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete completed workflow runs older than 5 days
+        uses: actions/github-script@v8
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const cutoff = new Date(Date.now() - 5 * 24 * 60 * 60 * 1000);
+            let page = 1;
+            let deleted = 0;
+
+            while (true) {
+              const { data } = await github.rest.actions.listWorkflowRunsForRepo({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                per_page: 100,
+                page
+              });
+
+              if (data.workflow_runs.length === 0) break;
+
+              for (const run of data.workflow_runs) {
+                const created = new Date(run.created_at);
+                if (run.status === 'completed' && created < cutoff) {
+                  core.info(`Deleting run ${run.id} (${run.name}) from ${run.created_at}`);
+                  await github.rest.actions.deleteWorkflowRun({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    run_id: run.id
+                  });
+                  deleted++;
+                }
+              }
+
+              if (data.workflow_runs.length < 100) break;
+              page++;
+            }
+
+            core.info(`Deleted ${deleted} completed workflow run(s) older than 5 days.`);
