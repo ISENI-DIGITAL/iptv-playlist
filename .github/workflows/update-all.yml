@@ -3,7 +3,7 @@ name: IPTV 3 Länder Auto Repair
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 * * * *"
+    - cron: "17 */6 * * *"
 
 permissions:
   contents: write
