@@ -27,6 +27,8 @@ https://gjirafa-video-live.gjirafa.net/gjvideo-live/2cz-npl-jfn-9he/index.m3u8
 https://stream.syritv.al/live/syritv/playlist.m3u8
 #EXTINF:-1 group-title="Albanische Sender",T7
 https://gjirafa-video-live.gjirafa.net/gjvideo-livestream-specific/1z8-byc-4ee-lc9/index.m3u8
+#EXTINF:-1 group-title="Albanische Sender",TopEstrada TV
+http://live.topestrada.com/live/topestrada/playlist.m3u8
 #EXTINF:-1 group-title="Albanische Sender",Tropoja Televizion
 https://live.prostream.al/al/smil:tropojatv.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="TV 7 Albania" tvg-logo="https://i.imgur.com/k9WqPLZ.png" tvg-id="TV7Albania.al" tvg-country="AL" group-title="Albanische Sender",TV 7 Albania
@@ -39,6 +41,8 @@ https://gjirafa-video-live.gjirafa.net/gjvideo-live/mps-vgx-u9p-qv1/index.m3u8
 http://stream.tvdielli.com:8081/dielli/index.m3u8
 #EXTINF:-1 tvg-id="TVJohaniter.al@SD" group-title="Albanische Sender",TV Johaniter
 https://protokolldns.xyz/johaniterweb44547dsd/index.m3u8
+#EXTINF:-1 group-title="Albanische Sender",TV Opoja
+http://ip.opoja.tv:1935/tvopoja/tvopoja/playlist.m3u8
 #EXTINF:-1 group-title="Albanische Sender",Vizion Plus
 https://tringliveviz.akamaized.net/delta/105/out/u/qwaszxerdfcvrtryuy.m3u8
 #EXTINF:-1 group-title="Albanische Sender",Zico TV
@@ -127,8 +131,8 @@ https://amogonetworx-grjngo-3-dk.samsung.wurl.tv/playlist.m3u8
 https://hnc-free-viewlift.amagi.tv/HNC_AUSTRALIA.m3u8
 #EXTINF:-1 tvg-id="HRFernsehen.de" group-title="Deutsche Sender",HR
 https://hrhls.akamaized.net/hls/live/2024525/hrhls/master.m3u8
-#EXTINF:-1 tvg-id="hrfernsehen.de@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/HR-Fernsehen_Logo_2023.svg/960px-HR-Fernsehen_Logo_2023.svg.png" group-title="Deutsche Sender",hr-fernsehen HD
-https://dash4.antik.sk/live/test_hr_tizen/playlist.m3u8
+#EXTINF:-1 tvg-id="hrfernsehen.de@SD" group-title="Deutsche Sender",hr-fernsehen (1080p)
+https://hrhls.akamaized.net/hls/live/2024525/hrhls/index.m3u8
 #EXTINF:-1 tvg-id="iCarly.de@DACH" tvg-logo="https://images.pluto.tv/channels/5e8b580a233dc90007f0cb9d/colorLogoPNG.png" group-title="Deutsche Sender",iCarly
 https://jmp2.uk/plu-5e8b580a233dc90007f0cb9d.m3u8
 #EXTINF:-1 tvg-id="IcePilots.us@Germany" tvg-logo="https://i.imgur.com/F8GBYq3.png" group-title="Deutsche Sender",Ice Pilots
@@ -175,6 +179,8 @@ https://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1/playlist
 https://dash4.antik.sk/live/test_ntv_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="NDRFernsehenHamburg.de" group-title="Deutsche Sender",NDR Hamburg
 https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master.m3u8
+#EXTINF:-1 tvg-id="NDRFernsehenInternational.de" group-title="Deutsche Sender",NDR International
+https://ndrint.akamaized.net/hls/live/2020766/ndr_int/index.m3u8
 #EXTINF:-1 tvg-id="NDRFernsehenMecklenburgVorpommern.de" group-title="Deutsche Sender",NDR Mecklenburg-Vorpommern
 https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master.m3u8
 #EXTINF:-1 tvg-id="NDRFernsehenSchleswigHolstein.de" group-title="Deutsche Sender",NDR Schleswig-Holstein
@@ -199,6 +205,8 @@ https://dash4.antik.sk/live/test_rtl_nitro_tizen/playlist.m3u8
 https://hls1.wtnet.de/noa4hh/apple/wifi6500.m3u8
 #EXTINF:-1 tvg-id="noa4Norderstedt.de@SD" group-title="Deutsche Sender",Noa 4 Norderstedt (1080p)
 https://hls1.wtnet.de/noa4/apple/wifi6500.m3u8
+#EXTINF:-1 tvg-id="NRWision.de@SD" group-title="Deutsche Sender",NRWision
+https://fms.nrwision.de/live/ngrp:livestreamHD.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="OberpfalzTV.de@SD" group-title="Deutsche Sender",Oberpfalz TV
 https://oberpfalztv.iptv-playoutcenter.de/oberpfalztv/oberpfalztv.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="OKDessau.de@SD" group-title="Deutsche Sender",OK Dessau (1080p) [Not 24/7]
@@ -315,8 +323,6 @@ https://53ff3982.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheH
 https://amg01775-amg01775c1-amgplt0343.playout.now3.amagi.tv/playlist/amg01775-amg01775c1-amgplt0343/playlist.m3u8
 #EXTINF:-1 tvg-id="TheGrahamNortonShow.uk@SD" tvg-logo="https://image.tmdb.org/t/p/w500/xZkWYamzlT6nFu9MI2Rr6NkjedX.png" group-title="Deutsche Sender",The Graham Norton Show (1080p)
 https://amg00654-itv-amg00654c35-rakuten-gb-7598.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TideTV.de@SD" group-title="Deutsche Sender",Tide TV (1080p) [Not 24/7]
-https://5889e7d0d6e28.streamlock.net/tide-live/smil:livestream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVIngolstadt.de@SD" group-title="Deutsche Sender",TV Ingolstadt
 https://stream01.welocal.stream/stream/fhd-tvingolstadt_44349/ngrp:stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMainfranken.de@SD" group-title="Deutsche Sender",TV Mainfranken
@@ -333,10 +339,32 @@ https://vmtv.iptv-playoutcenter.de/vmtv/vmtv1/playlist.m3u8
 https://dash4.antik.sk/live/test_vox_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="WDR.de" group-title="Deutsche Sender",WDR
 https://wdrfs247.akamaized.net/hls/live/681509/wdr_msl4_fs247/index.m3u8
+#EXTINF:-1 tvg-id="WDR1Live.de@SD" group-title="Deutsche Sender",WDR 1 Live (720p)
+https://wdrfsww247.akamaized.net/hls/live/2009628/wdr_msl4_fs247ww/master.m3u8
 #EXTINF:-1 tvg-id="WDRFernsehen.de@Koln" group-title="Deutsche Sender",WDR Fernsehen (720p)
 https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="WDRFernsehen.de@Aachen" group-title="Deutsche Sender",WDR Fernsehen Aachen (720p) [Geo-blocked]
 https://wdrlokalzeit.akamaized.net/hls/live/2018019-b/wdrlz_aachen/master.m3u8
+#EXTINF:-1 tvg-id="WDRFernsehen.de@Bielefeld" group-title="Deutsche Sender",WDR Fernsehen Bielefeld (720p) [Geo-blocked]
+https://wdrlokalzeit.akamaized.net/hls/live/2018026-b/wdrlz_bielefeld/master.m3u8
+#EXTINF:-1 tvg-id="WDRFernsehen.de@Bonn" group-title="Deutsche Sender",WDR Fernsehen Bonn (720p) [Geo-blocked]
+https://wdrlokalzeit.akamaized.net/hls/live/2018021-b/wdrlz_bonn/master.m3u8
+#EXTINF:-1 tvg-id="WDRFernsehen.de@Dortmund" group-title="Deutsche Sender",WDR Fernsehen Dortmund (720p) [Geo-blocked]
+https://wdrlokalzeit.akamaized.net/hls/live/2018022-b/wdrlz_dortmund/master.m3u8
+#EXTINF:-1 tvg-id="WDRFernsehen.de@Duisburg" group-title="Deutsche Sender",WDR Fernsehen Duisburg (720p) [Geo-blocked]
+https://wdrlokalzeit.akamaized.net/hls/live/2018024-b/wdrlz_duisburg/master.m3u8
+#EXTINF:-1 tvg-id="WDRFernsehen.de@Dusseldorf" group-title="Deutsche Sender",WDR Fernsehen Düsseldorf (720p) [Geo-blocked]
+https://wdrlokalzeit.akamaized.net/hls/live/2018023-b/wdrlz_duesseldorf/master.m3u8
+#EXTINF:-1 tvg-id="WDRFernsehen.de@Essen" group-title="Deutsche Sender",WDR Fernsehen Essen (720p) [Geo-blocked]
+https://wdrlokalzeit.akamaized.net/hls/live/2018027-b/wdrlz_essen/master.m3u8
+#EXTINF:-1 tvg-id="WDRFernsehen.de@Koln" group-title="Deutsche Sender",WDR Fernsehen Köln (720p) [Geo-blocked]
+https://wdrlokalzeit.akamaized.net/hls/live/2023550-b/wdrlz_koeln/master.m3u8
+#EXTINF:-1 tvg-id="WDRFernsehen.de@Munster" group-title="Deutsche Sender",WDR Fernsehen Münster (720p) [Geo-blocked]
+https://wdrlokalzeit.akamaized.net/hls/live/2018025-b/wdrlz_muensterland/master.m3u8
+#EXTINF:-1 tvg-id="WDRFernsehen.de@Siegen" group-title="Deutsche Sender",WDR Fernsehen Siegen (720p) [Geo-blocked]
+https://wdrlokalzeit.akamaized.net/hls/live/2018020-b/wdrlz_siegen/master.m3u8
+#EXTINF:-1 tvg-id="WDRFernsehen.de@Wuppertal" group-title="Deutsche Sender",WDR Fernsehen Wuppertal (720p) [Geo-blocked]
+https://wdrlokalzeit.akamaized.net/hls/live/2018028-b/wdrlz_wuppertal/master.m3u8
 #EXTINF:-1 tvg-id="WELT.de@SD" tvg-logo="https://i.imgur.com/s4TZoxx.png" group-title="Deutsche Sender",WELT (576p)
 https://s6.hopslan.com/n24X/index.m3u8
 #EXTINF:-1 tvg-id="WeltderWunderTV.de@SD" group-title="Deutsche Sender",Welt der Wunder TV (576p)
@@ -395,8 +423,6 @@ https://stream.swamiji.tv/YogaIPTV/smil:YogaStreamUS.smil/playlist.m3u8
 https://stream.swamiji.tv/YogaIPTV/smil:YogaStreamAU.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="SwamijiTVEuropean.at@SD" group-title="Österreichische Sender",Swamiji TV European (1080p) [Not 24/7]
 https://stream.swamiji.tv/YogaIPTV/smil:YogaStream.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TirolTV.at@SD" group-title="Österreichische Sender",Tirol TV (720p) [Not 24/7]
-https://streaming14.huberwebmedia.at/LiveApp/streams/livestream.m3u8
 #EXTINF:-1 tvg-id="TV1Oberosterreich.at@SD" group-title="Österreichische Sender",TV 1 Oberösterreich
 https://streaming10.huberwebmedia.at/LiveApp/streams/238985177034727564068269_adaptive.m3u8
 #EXTINF:-1 tvg-id="W24.at" group-title="Österreichische Sender",W24
