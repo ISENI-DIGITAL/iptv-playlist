@@ -27,8 +27,6 @@ https://gjirafa-video-live.gjirafa.net/gjvideo-live/2cz-npl-jfn-9he/index.m3u8
 https://stream.syritv.al/live/syritv/playlist.m3u8
 #EXTINF:-1 group-title="Albanische Sender",T7
 https://gjirafa-video-live.gjirafa.net/gjvideo-livestream-specific/1z8-byc-4ee-lc9/index.m3u8
-#EXTINF:-1 group-title="Albanische Sender",TopEstrada TV
-http://live.topestrada.com/live/topestrada/playlist.m3u8
 #EXTINF:-1 group-title="Albanische Sender",Tropoja Televizion
 https://live.prostream.al/al/smil:tropojatv.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="TV 7 Albania" tvg-logo="https://i.imgur.com/k9WqPLZ.png" tvg-id="TV7Albania.al" tvg-country="AL" group-title="Albanische Sender",TV 7 Albania
@@ -43,6 +41,8 @@ http://stream.tvdielli.com:8081/dielli/index.m3u8
 https://protokolldns.xyz/johaniterweb44547dsd/index.m3u8
 #EXTINF:-1 group-title="Albanische Sender",TV Opoja
 http://ip.opoja.tv:1935/tvopoja/tvopoja/playlist.m3u8
+#EXTINF:-1 tvg-id="TVPrizreni.xk" group-title="Albanische Sender",TV Prizreni
+https://gjirafa-video-live.gjirafa.net/gjvideo-live/5m0-cok-g5z-1xi/index.m3u8
 #EXTINF:-1 group-title="Albanische Sender",Vizion Plus
 https://tringliveviz.akamaized.net/delta/105/out/u/qwaszxerdfcvrtryuy.m3u8
 #EXTINF:-1 group-title="Albanische Sender",Zico TV
@@ -91,8 +91,6 @@ https://jmp2.uk/plu-5d4947590ba40f75dc29c26b.m3u8
 https://chemnitz.iptv-playoutcenter.de/chemnitz/chemnitzfernsehen.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="CiraTV.de@SD" group-title="Deutsche Sender",Cira TV (1080p)
 https://hlspackager.akamaized.net/live/DB/CIRA_TV/HLS/CIRA_TV.m3u8
-#EXTINF:-1 tvg-id="ComedyCentral.de@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" group-title="Deutsche Sender",Comedy Central
-https://ma.anixa.tv/clips/stream/comedy_central/playlist.php
 #EXTINF:-1 tvg-id="DasErste.de" group-title="Deutsche Sender",Das Erste
 https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="DASDING908.de@SD" group-title="Deutsche Sender",DASDING 90.8
@@ -153,6 +151,8 @@ https://dash4.antik.sk/live/test_kabel_eins_tizen/playlist.m3u8
 https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master.m3u8
 #EXTINF:-1 tvg-id="KulturMD.de@SD" group-title="Deutsche Sender",KulturMD (1080p)
 http://58bd5b7a98e04.streamlock.net/medienasa-live/kulturmd_high/playlist.m3u8
+#EXTINF:-1 tvg-id="Lausitzwelle.de@SD" group-title="Deutsche Sender",Lausitzwelle
+https://h056.video-stream-hosting.de/easycast11-live/_definst_/mp4:livestreamhd2/playlist.m3u8?ref=
 #EXTINF:-1 tvg-id="SachsenFernsehenLeipzig.de@SD" group-title="Deutsche Sender",Leipzig Fernsehen
 https://leipzig.iptv-playoutcenter.de/leipzig/leipzigfernsehen.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="LightChannel.de@SD" group-title="Deutsche Sender",Light Channel (576p) [Not 24/7]
@@ -189,8 +189,6 @@ https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master.m3u8
 https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master.m3u8
 #EXTINF:-1 tvg-id="NDRFernsehenSchleswigHolstein.de" group-title="Deutsche Sender",NDR Schleswig-Holstein
 https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master.m3u8
-#EXTINF:-1 tvg-id="Nickelodeon.de@SD" group-title="Deutsche Sender",Nickelodeon
-https://ma.anixa.tv/clips/stream/nickelodeon/playlist.php
 #EXTINF:-1 tvg-id="NickelodeonTeen.de@DACH" tvg-logo="https://images.pluto.tv/channels/5f0d668b872e4400073acc68/colorLogoPNG_1750753617970.png" group-title="Deutsche Sender",Nickelodeon Teen (720p)
 https://jmp2.uk/plu-5f0d668b872e4400073acc68.m3u8
 #EXTINF:-1 tvg-id="NickelodeonToons.de@DACH" tvg-logo="https://images.pluto.tv/channels/5ede448d3d50590007a4419e/colorLogoPNG_1750753703285.png" group-title="Deutsche Sender",Nickelodeon Toons (720p)
@@ -209,6 +207,8 @@ https://dash4.antik.sk/live/test_rtl_nitro_tizen/playlist.m3u8
 https://hls1.wtnet.de/noa4hh/apple/wifi6500.m3u8
 #EXTINF:-1 tvg-id="noa4Norderstedt.de@SD" group-title="Deutsche Sender",Noa 4 Norderstedt (1080p)
 https://hls1.wtnet.de/noa4/apple/wifi6500.m3u8
+#EXTINF:-1 tvg-id="NRWision.de@SD" group-title="Deutsche Sender",NRWision
+https://fms.nrwision.de/live/ngrp:livestreamHD.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="OberpfalzTV.de@SD" group-title="Deutsche Sender",Oberpfalz TV
 https://oberpfalztv.iptv-playoutcenter.de/oberpfalztv/oberpfalztv.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="OKDessau.de@SD" group-title="Deutsche Sender",OK Dessau (1080p) [Not 24/7]
@@ -343,10 +343,6 @@ https://tvaktuellr.iptv-playoutcenter.de/tvaktuellr/tvaktuellr.stream_1/playlist
 https://vmtv.iptv-playoutcenter.de/vmtv/vmtv1/playlist.m3u8
 #EXTINF:-1 tvg-id="VOX.de@SD" tvg-logo="https://i.imgur.com/QPcmfZb.png" group-title="Deutsche Sender",VOX
 https://dash4.antik.sk/live/test_vox_tizen/playlist.m3u8
-#EXTINF:-1 tvg-id="WDR.de" group-title="Deutsche Sender",WDR
-https://wdrfs247.akamaized.net/hls/live/681509/wdr_msl4_fs247/index.m3u8
-#EXTINF:-1 tvg-id="WDR1Live.de@SD" group-title="Deutsche Sender",WDR 1 Live (720p)
-https://wdrfsww247.akamaized.net/hls/live/2009628/wdr_msl4_fs247ww/master.m3u8
 #EXTINF:-1 tvg-id="WDRFernsehen.de@Koln" group-title="Deutsche Sender",WDR Fernsehen (720p)
 https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="WDRFernsehen.de@Aachen" group-title="Deutsche Sender",WDR Fernsehen Aachen (720p) [Geo-blocked]
@@ -423,8 +419,6 @@ https://0b73ace69ebb45eaa249bb87837cb958.mediatailor.us-west-2.amazonaws.com/v1/
 http://iptv.rtv-ooe.at/stream.m3u8
 #EXTINF:-1 tvg-id="SchladmingDachsteinTV.at@SD" group-title="Österreichische Sender",Schladming-Dachstein TV
 https://m317.video-stream-hosting.de/gzSoftware-live/_definst_/smil:livestream.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="SteiermarkTV.at@SD" group-title="Österreichische Sender",Steiermark TV
-https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd4/playlist.m3u8?ref=
 #EXTINF:-1 tvg-id="SwamijiTVAmerican.at@SD" group-title="Österreichische Sender",Swamiji TV American (1080p) [Not 24/7]
 https://stream.swamiji.tv/YogaIPTV/smil:YogaStreamUS.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="SwamijiTVAustralian.at@SD" group-title="Österreichische Sender",Swamiji TV Australian (1080p) [Not 24/7]
