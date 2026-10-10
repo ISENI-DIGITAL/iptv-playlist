@@ -1107,3 +1107,5 @@ http://178.27.12.3:9981/stream/channelid/1567530044?profile=pass
 http://178.27.12.3:9981/stream/channelid/1351813628?profile=pass
 #EXTINF:-1 tvg-id="TNTInternational.ru@Europe" tvg-logo="https://i.imgur.com/l0RGbRI.png" group-title="Deutsche Sender",TNT International (480p)
 http://91.228.35.249:8001/1:0:1:6a7:3138:13e:820000:0:0:0:
+#EXTINF:-1 tvg-name="HR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/HR-Fernsehen_Logo_2023.svg/500px-HR-Fernsehen_Logo_2023.svg.png" tvg-id="HRFernsehen.de" tvg-chno="3" tvg-country="DE" group-title="Deutsche Sender",HR Ⓖ
+https://hrhlsde.akamaized.net/hls/live/2024526/hrhlsde/master.m3u8
