@@ -99,6 +99,8 @@ https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/mp4:BLKonline_high
 https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/BLKonline_high/playlist.m3u8
 #EXTINF:-1 tvg-id="BLKRegionalTV.de@SD" group-title="Deutsche Sender",BLK TV Hohenmölsen (1080p)
 https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/mp4:BLKonline_high/playlist.m3u8?ref=medienportal-sachsen-
+#EXTINF:-1 tvg-id="BRFernsehenNord.de" group-title="Deutsche Sender",BR Nord
+https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="BRFernsehenSud.de" group-title="Deutsche Sender",BR Süd
 https://mcdn.br.de/br/fs/bfs_sued/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="CCPlutoTV.de@DACH" tvg-logo="https://images.pluto.tv/channels/5d4947590ba40f75dc29c26b/colorLogoPNG.png" group-title="Deutsche Sender",CC Pluto TV
@@ -115,8 +117,8 @@ https://hlspackager.akamaized.net/live/DB/CIRA_TV/HLS/CIRA_TV.m3u8
 https://ma.anixa.tv/clips/stream/comedy_central/playlist.php
 #EXTINF:-1 tvg-id="ComedyCentralSouthPark.de@DACH" tvg-logo="https://images.pluto.tv/channels/60c716084d842c00085f6e64/colorLogoPNG_1748434979824.png" group-title="Deutsche Sender",Comedy Central South Park
 https://jmp2.uk/plu-60c716084d842c00085f6e64.m3u8
-#EXTINF:-1 tvg-id="DasErste.de@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/ARD_Dachmarke_2014.svg/960px-ARD_Dachmarke_2014.svg.png" group-title="Deutsche Sender",Das Erste (720p)
-https://s6.hopslan.com/ardX/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="DasErste.de" group-title="Deutsche Sender",Das Erste
+https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="DASDING908.de@SD" group-title="Deutsche Sender",DASDING 90.8
 https://swrdasdingvr-hls.akamaized.net/hls/live/2018681/dasdingvr/master.m3u8
 #EXTINF:-1 tvg-id="DeluxeLounge.de@SD" group-title="Deutsche Sender",Deluxe Lounge
@@ -135,6 +137,8 @@ http://5.180.164.197:8080/DMAX/index.m3u8
 https://d-m-f.iptv-playoutcenter.de/dmf/dmf1/playlist.m3u8
 #EXTINF:-1 tvg-id="Dokusat.de@SD" group-title="Deutsche Sender",Dokusat
 https://muc3.iptv-playoutcenter.de/dokusat/dokusat1/playlist.m3u8
+#EXTINF:-1 tvg-id="DrakeJosh.de@DACH" tvg-logo="https://images.pluto.tv/channels/65a67c494a10d800085cab06/colorLogoPNG.png" group-title="Deutsche Sender",Drake & Josh
+https://jmp2.uk/plu-65a67c494a10d800085cab06.m3u8
 #EXTINF:-1 tvg-id="SachsenFernsehenDresden.de@SD" group-title="Deutsche Sender",Dresden Fernsehen
 https://dresden.iptv-playoutcenter.de/dresden/dresdenfernsehen.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="DW.de@Arabic" group-title="Deutsche Sender",DW Arabic (1080p)
@@ -215,6 +219,8 @@ https://ma.anixa.tv/clips/stream/mtv/playlist.php
 https://jmp2.uk/plu-5db6a697d5f34a000934cd13.m3u8
 #EXTINF:-1 tvg-id="MTVDating.de@DACH" tvg-logo="https://images.pluto.tv/channels/5caf330ea5068259a32320fd/colorLogoPNG.png" group-title="Deutsche Sender",MTV Dating (720p)
 https://jmp2.uk/plu-5caf330ea5068259a32320fd.m3u8
+#EXTINF:-1 tvg-id="MTVPlutoTV.de@DACH" tvg-logo="https://images.pluto.tv/channels/5caf325764025859afdd6c4d/colorLogoPNG.png" group-title="Deutsche Sender",MTV Pluto TV
+https://jmp2.uk/plu-5caf325764025859afdd6c4d.m3u8
 #EXTINF:-1 tvg-id="MTVReality.de@DACH" tvg-logo="https://images.pluto.tv/channels/685136fb33a52de120bbb086/colorLogoPNG_1780303948285.png" group-title="Deutsche Sender",MTV Reality (720p)
 https://jmp2.uk/plu-685136fb33a52de120bbb086.m3u8
 #EXTINF:-1 tvg-id="MTVRidiculousness.de@DACH" tvg-logo="https://images.pluto.tv/channels/5f9847fd513250000728a9a5/colorLogoPNG.png" group-title="Deutsche Sender",MTV Ridiculousness
@@ -259,6 +265,8 @@ https://dash4.antik.sk/live/test_rtl_nitro_tizen/playlist.m3u8
 https://hls1.wtnet.de/noa4hh/apple/wifi6500.m3u8
 #EXTINF:-1 tvg-id="noa4Norderstedt.de@SD" group-title="Deutsche Sender",Noa 4 Norderstedt (1080p)
 https://hls1.wtnet.de/noa4/apple/wifi6500.m3u8
+#EXTINF:-1 tvg-id="NRWision.de@SD" group-title="Deutsche Sender",NRWision
+https://fms.nrwision.de/live/ngrp:livestreamHD.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="OberpfalzTV.de@SD" group-title="Deutsche Sender",Oberpfalz TV
 https://oberpfalztv.iptv-playoutcenter.de/oberpfalztv/oberpfalztv.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="OKDessau.de@SD" group-title="Deutsche Sender",OK Dessau (1080p) [Not 24/7]
@@ -321,8 +329,6 @@ https://jmp2.uk/plu-5dde47b63585b500099f74ec.m3u8
 https://jmp2.uk/plu-5c5c3b948002db3c3e0b262e.m3u8
 #EXTINF:-1 tvg-id="PlutoTVMystery.de@DACH" tvg-logo="https://images.pluto.tv/channels/617aad99b68ef100072608cd/colorLogoPNG.png" group-title="Deutsche Sender",Pluto TV Mystery
 https://jmp2.uk/plu-617aad99b68ef100072608cd.m3u8
-#EXTINF:-1 tvg-id="PlutoTVNature.de@DACH" tvg-logo="https://images.pluto.tv/channels/5be1c3f9851dd5632e2c91b2/colorLogoPNG.png" group-title="Deutsche Sender",Pluto TV Nature
-https://jmp2.uk/plu-5be1c3f9851dd5632e2c91b2.m3u8
 #EXTINF:-1 tvg-id="PlutoTVNordicCrime.de@DACH" tvg-logo="https://images.pluto.tv/channels/67d984408d8dc3d7754dccf2/colorLogoPNG_1746817551952.png" group-title="Deutsche Sender",Pluto TV Nordic Crime
 https://jmp2.uk/plu-67d984408d8dc3d7754dccf2.m3u8
 #EXTINF:-1 tvg-id="PlutoTVParanormal.de@DACH" tvg-logo="https://images.pluto.tv/channels/5f98487036af340008da1e37/colorLogoPNG.png" group-title="Deutsche Sender",Pluto TV Paranormal
@@ -479,8 +485,8 @@ https://tvaktuellr.iptv-playoutcenter.de/tvaktuellr/tvaktuellr.stream_1/playlist
 https://vmtv.iptv-playoutcenter.de/vmtv/vmtv1/playlist.m3u8
 #EXTINF:-1 tvg-id="VOX.de@SD" tvg-logo="https://i.imgur.com/QPcmfZb.png" group-title="Deutsche Sender",VOX
 https://dash4.antik.sk/live/test_vox_tizen/playlist.m3u8
-#EXTINF:-1 tvg-id="WDRFernsehen.de@Koln" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/WDR_Fernsehen_Logo_2018.svg/960px-WDR_Fernsehen_Logo_2018.svg.png" group-title="Deutsche Sender",WDR Fernsehen
-https://dash3.antik.sk/live/test_wdr_tizen/playlist.m3u8
+#EXTINF:-1 tvg-id="WDRFernsehen.de@Koln" group-title="Deutsche Sender",WDR Fernsehen (720p)
+https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="WELT.de@SD" tvg-logo="https://i.imgur.com/s4TZoxx.png" group-title="Deutsche Sender",WELT (576p)
 https://s6.hopslan.com/n24X/index.m3u8
 #EXTINF:-1 tvg-id="WeltderWunderTV.de@SD" group-title="Deutsche Sender",Welt der Wunder TV (576p)
@@ -503,8 +509,6 @@ https://zweiapp.b-cdn.net/1080p/index.m3u8
 https://60efd7a2b4d02.streamlock.net/a_kaernten/ngrp:livestream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="AntenneSteiermark.at@SD" group-title="Österreichische Sender",Antenne Steiermark
 https://60efd7a2b4d02.streamlock.net/a_steiermark/ngrp:livestream_all/playlist.m3u8
-#EXTINF:-1 tvg-id="DrakeJosh.de@DACH" tvg-logo="https://images.pluto.tv/channels/65a67c494a10d800085cab06/colorLogoPNG.png" group-title="Österreichische Sender",Drake & Josh
-https://jmp2.uk/plu-65a67c494a10d800085cab06.m3u8
 #EXTINF:-1 tvg-id="FS1Salzburg.at@SD" group-title="Österreichische Sender",FS1 Salzburg
 https://stream.fs1.tv/hls/webstream.m3u8
 #EXTINF:-1 tvg-id="FUELTV.pt@EMEA" group-title="Österreichische Sender",FUEL TV
@@ -513,14 +517,16 @@ https://amg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv/hls/amagi_hls_data_r
 https://studiocam-oe3.mdn.ors.at/orf/studiocam_oe3/q6a/master.m3u8
 #EXTINF:-1 tvg-id="KITTV.at@SD" group-title="Österreichische Sender",KIT-TV
 https://everest.pa-hosting.de:3591/live/joseflive.m3u8
+#EXTINF:-1 tvg-id="Kronehit.at@SD" group-title="Österreichische Sender",Kronehit
+https://bitcdn-kronehit.bitmovin.com/v2/hls/playlist.m3u8
 #EXTINF:-1 tvg-id="LandleTV.at@SD" group-title="Österreichische Sender",Ländle TV
 https://streaming13.huberwebmedia.at/LiveApp/streams/985585225397790082777809.m3u8
-#EXTINF:-1 tvg-id="MTVPlutoTV.de@DACH" tvg-logo="https://images.pluto.tv/channels/5caf325764025859afdd6c4d/colorLogoPNG.png" group-title="Österreichische Sender",MTV Pluto TV
-https://jmp2.uk/plu-5caf325764025859afdd6c4d.m3u8
 #EXTINF:-1 tvg-id="Oe24TV.at" tvg-logo="https://i.imgur.com/8UTkcPn.png" group-title="Österreichische Sender",oe24
 https://oe24.mdn.ors.at/live/eds/oe24tv_hd/hls_nodrm/oe24tv_hd-nodrm.m3u8
 #EXTINF:-1 tvg-id="Okto.at@SD" tvg-logo="https://i.imgur.com/9XfhgbS.png" group-title="Österreichische Sender",Okto TV (1080p)
 https://cdn3.wowza.com/1/MHFtazJReW5rOFhP/N2NWNDZ2/hls/live/playlist.m3u8
+#EXTINF:-1 tvg-id="PlutoTVNature.de@DACH" tvg-logo="https://images.pluto.tv/channels/5be1c3f9851dd5632e2c91b2/colorLogoPNG.png" group-title="Österreichische Sender",Pluto TV Nature
+https://jmp2.uk/plu-5be1c3f9851dd5632e2c91b2.m3u8
 #EXTINF:-1 tvg-id="R9.at" group-title="Österreichische Sender",R9
 https://ms01.w24.at/R9/smil:liveeventR9.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RedBullTV.at@SD" group-title="Österreichische Sender",Red Bull TV
